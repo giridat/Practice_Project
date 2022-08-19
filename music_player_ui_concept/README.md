@@ -1,16 +1,22 @@
-# music_player_ui_concept
+## music_player_ui_concept
 
-A new Flutter practice project contatining different UI concepts.
+A new music player app 
 
-## Getting Started
+UI inspiration: https://dribbble.com/shots/15409683-Music-Player-UI-Concept
 
-This project is a starting point for a Flutter application.
+Various functionalities to be added: Implementation of the audio player is currently the main thing to be done with Provider or Riverpod. 
 
-A few resources to get you started if this is your first Flutter project:
+Functionalities added: 
+1. Setup of project on Firebase
+2. go_router package added
+3. SliverAppBar
+4. Listview
+5. Nested Scroll View
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/61822722/185568691-0431fc18-e0af-476c-8a18-c1f7ba08225d.png)
+![image](https://user-images.githubusercontent.com/61822722/185568814-368dd8a7-c806-4603-b6b1-4d6d1f91e923.png)
+
+
+
