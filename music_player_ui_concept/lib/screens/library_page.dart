@@ -72,7 +72,9 @@ class _LibraryPageState extends State<LibraryPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       IconButton(
-                        onPressed: () {context.go('/NowPlaying');},
+                        onPressed: () {
+                          context.go('/NowPlaying');
+                        },
                         icon: const Icon(Icons.play_arrow),
                       ),
                       Flex(

@@ -14,7 +14,9 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          onPressed: () {context.go('/LibraryPage');},
+          onPressed: () {
+            context.go('/LibraryPage');
+          },
           child: const Text('Press me'),
         ),
       ),
