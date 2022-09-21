@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:music_player_ui_concept/style/appbar_gradient_color.dart';
 
 class CustomAppBar extends StatefulWidget {
@@ -22,7 +23,9 @@ class _CustomAppBarState extends State<CustomAppBar> {
           Icons.arrow_back,
           color: Colors.black,
         ),
-        onPressed: () {},
+        onPressed: () {
+          context.go('/SplashScreen');
+        },
       ),
       actions: [
         IconButton(

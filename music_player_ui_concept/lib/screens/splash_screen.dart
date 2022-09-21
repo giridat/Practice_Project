@@ -14,10 +14,15 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.black)),
           onPressed: () {
             context.go('/LibraryPage');
           },
-          child: const Text('Press me'),
+          child: const Text(
+            'Get Started!',
+            style: TextStyle(),
+          ),
         ),
       ),
     );

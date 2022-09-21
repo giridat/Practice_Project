@@ -8,7 +8,7 @@ import 'package:music_player_ui_concept/screens/splash_screen.dart';
 class Routes {
   static GoRouter routerNavigation() {
     return GoRouter(
-      initialLocation: '/Authorisation',
+      initialLocation: '/SplashScreen',
       routes: <GoRoute>[
         GoRoute(
           path: '/Authorisation',
